@@ -3,7 +3,6 @@ import './App.css';
 
 const App = () => {
 
-
     const [texto, setTexto] = useState(" ")
 
     const handleInputChange = (event) => {
@@ -34,6 +33,5 @@ const App = () => {
         </Fragment>
     );
 }
-
 
 export default App;
